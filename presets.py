@@ -67,7 +67,7 @@ class Presets(object):
 
 👇<code>Select the required format</code>👇
     """
-    NOT_SUB_TXT = "<b>Oopz </b> 😯\n\n<code>In order to use this feature, You need to join my channel.</code>"
+    NOT_SUB_TXT = "<b> Uzr</b>\n\n<code>Botdan to'liq foydalanish uchun Boting yangliklar kanaliga obuna bo'ling</code>"
     BOT_NOT_PRESENT = "<b>Error : </b>\n\n<code>Bot need to be an admin to the force subscribe chat !</code>"
     NO_INVITE_METHOD = "<b>Error : </b>\n\n<code>Chat invite method not found ! Try to generate an invite " \
                        "link in your force subscribe chat.</code>"
