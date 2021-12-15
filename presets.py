@@ -20,7 +20,7 @@ class Presets(object):
 
     OPTIONS_TXT = "<code>🔰 Select the option 🔰</code>"
     WELCOME_MSG = "<code>Salom...</code><b>{}</b> 👋\n<code>Men YouTubedan video va audio yuklab oluvchi botiman. " \
-                  "Search inline for videos and click to proceed for download.</code>"
+                  "</code>"
     RESULTS_TXT = "👀 Results:"
     NO_RESULTS = "❌ No Results"
     DESCRIPTION = "Duration: {} || {}"
