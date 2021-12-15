@@ -42,7 +42,7 @@ back_button = [
 
 close_button = [
                [
-                    InlineKeyboardButton('❌ Close', callback_data='close_btn'),
+                    InlineKeyboardButton('❌ Yopish', callback_data='close_btn'),
                     InlineKeyboardButton('🏠 Home', callback_data='home_btn')
                ]
                ]
