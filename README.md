@@ -43,7 +43,7 @@
     <summary><b>Deploy</b></summary>
     <p align="left"></p>
     <b>1. <u>Deploy to Heroku</u></b><br>
-        <a href="https://heroku.com/deploy?template=https://github.com/m4mallu/inline-tube-mate">
+        <a href="https://heroku.com/deploy?template=https://github.com/Boburjonuz/inline-tube-mate">
             <img height="30px" src="https://img.shields.io/badge/Deploy%20To%20Heroku-blueviolet?style=for-the-badge&logo=heroku">
     </a><br><br>
     <b>2. <u>Deploy to VPS</u></b><br>
