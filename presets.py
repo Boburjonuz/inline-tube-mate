@@ -80,6 +80,6 @@ URL | newfilename | username | password"""
     AD_STRING_TO_REPLACE = "please report this issue on https://yt-dl.org/bug . Make sure you are using the " \
                            "latest version; see  https://yt-dl.org/update  on how to update. Be sure to call " \
                            "youtube-dl with the --verbose flag and include its complete output."
-    INITIAL_MEDIA = "Manzilni yuklash jarayonda iltimos kutib turing!"
+    INITIAL_MEDIA = "https://telegra.ph/file/c3f88ba6883554654fb4e.png"
     ERROR_MEDIA = "https://telegra.ph/file/27fd810c591c884dba11d.jpg"
     SETTINGS = "<code>Need an update in settings?</code>"
