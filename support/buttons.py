@@ -12,15 +12,15 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup
 # Buttons used
 start_btn = [
     [
-        InlineKeyboardButton('🎖 GitHub', url=Presets.SOURCE_URL),
+        InlineKeyboardButton('Kanal', url=Presets.SOURCE_URL),
         InlineKeyboardButton('🔰 Support', url=Presets.SUPPORT_URL)
     ],
     [
         InlineKeyboardButton('📸 Thumbnail', callback_data='view_btn'),
-        InlineKeyboardButton('❓ Help', callback_data='help_btn')
+        InlineKeyboardButton('❓ Reklama', callback_data='help_btn')
     ],
     [
-        InlineKeyboardButton('❌ Close', callback_data='close_btn'),
+        InlineKeyboardButton('❌ Yopish', callback_data='close_btn'),
         InlineKeyboardButton('🔎 Search Inline', switch_inline_query_current_chat='')
     ]
     ]
@@ -81,7 +81,7 @@ def get_chat_invite_link(link):
     buttons = [
               [
                   InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                  InlineKeyboardButton('Join Now', url='{}'.format(link))
+                  InlineKeyboardButton('Obuna bolish', url='{}'.format(link))
               ]
               ]
     reply_markup_invite_link = InlineKeyboardMarkup(buttons)
@@ -91,8 +91,8 @@ def get_chat_invite_link(link):
 def get_public_chat_link(username):
     buttons = [
               [
-                  InlineKeyboardButton('❌ Close', callback_data='close_btn'),
-                  InlineKeyboardButton('Join Now', url='https://t.me/{}'.format(username))
+                  InlineKeyboardButton('❌ Yopish', callback_data='close_btn'),
+                  InlineKeyboardButton('Obuna bolish', url='https://t.me/{}'.format(username))
               ]
               ]
     reply_markup_public_url = InlineKeyboardMarkup(buttons)
