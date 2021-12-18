@@ -41,7 +41,10 @@ class Presets(object):
                     "clear it !</code> "
     NO_THUMB = "❌ Can't find any thumbnail in your local, Please upload an image to set it.."
     DEL_THUMB_CNF = "Thumbnail Cleared Successfully ✅"
-    LINK_ERROR = "<b>Error : </b>\n\n<code>Some error occurred while the process !\n Plz try again later..</code>"
+    LINK_ERROR = "<b>Uzr </b>\n\n<code>Yuklashda bazi xatoliklar uchradi !\n Keyinroq yana urunib ko'ring...</code>"
+    #
+    #
+    #
     NO_VOID_FORMAT_FOUND = "<code>{}</code>"
     FINISHED_PROGRESS_STR = "◼️"
     UN_FINISHED_PROGRESS_STR = "◻️"
@@ -65,9 +68,9 @@ class Presets(object):
 <code>Yuklangan sana -</code> <b>{}</b>
 <code>Ko'rishlar soni -</code> <b>{}  |</b>  <code>Reyting:</code> <b>{}</b>
 
-👇<code>Select the required format</code>👇
+👇<code>Kerakli formatni tanlang </code>👇
     """
-    NOT_SUB_TXT = "<b> Uzr</b>\n\n<code>Botdan to'liq foydalanish uchun Boting yangliklar kanaliga obuna bo'ling</code>"
+    NOT_SUB_TXT = "<b> Uzr</b>\n\n<code>Botdan to'liq foydalanish uchun Botning yangiliklar kanaliga obuna bo'ling</code>"
     BOT_NOT_PRESENT = "<b>Error : </b>\n\n<code>Bot need to be an admin to the force subscribe chat !</code>"
     NO_INVITE_METHOD = "<b>Error : </b>\n\n<code>Chat invite method not found ! Try to generate an invite " \
                        "link in your force subscribe chat.</code>"
